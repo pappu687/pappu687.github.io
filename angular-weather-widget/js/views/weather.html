@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">    
+      <div class="bg">
+        <h3 class="title">{{data.city.name}}, {{data.city.country}}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2 weather-days today" ng-repeat="day in data.list | filter:!dt.today">
+      <h4>{{ day.dt.day  }}</h4>      
+      <span class="temp-title">
+        {{ day.temp.day}}&deg;
+      </span><br /><br />
+      <span class="speed">
+        {{ day.speed }} km/h
+      </span>      
+    </div>
+    <div class="col-xs-10">
+      <div class="row">    
+        <div class="weather-days col-xs-2" ng-repeat="day in data.list" ng-show="!day.dt.today">    
+          <div>
+            <span class="badge">
+              {{ day.dt.day  }}
+            </span><br />
+            <span class="temp-title">
+              {{ day.temp.day}}&deg;
+            </span><br />
+            <span class="speed">
+              {{ day.speed }} km/h
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

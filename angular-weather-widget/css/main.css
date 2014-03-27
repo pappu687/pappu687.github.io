@@ -1,0 +1,46 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+   body{
+    background:url('../img/blur-bg.jpg') #D28E6A no-repeat;
+    font-family: "Roboto Condensed",Arial;
+  }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+  }
+  .bg{
+    background:url('../img/bg.jpg') no-repeat; 
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 25px 25px 25px;
+  }
+  .bg .title{
+    color:#FFF;
+  }
+  .temp-title{
+    font-size: 28px;
+    font-weight: 300;00;
+    color:#FFF;
+  }
+  .weather-days{
+    margin: 15px 0 0 0;
+    text-align: center;
+    background-color:rgba(50, 84, 116, 0.45);
+    height: 140px;    
+  }
+  .weather-days{
+    margin-top:auto;
+    vertical-align: middle;
+    display: table;
+  }
+  .today{
+    background-color:rgba(43, 156, 192, 0.34);
+  }
+  .today .temp-title{
+    font-size: 32px;
+  }
