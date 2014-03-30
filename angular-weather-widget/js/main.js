@@ -21,7 +21,7 @@ weatherControllers.controller("GetWeatherCtrl", ['$scope', 'weatherApi',
   function($scope, weatherApi) {
     $scope.currentTime = moment().format('h:mm a');
     weatherApi.getLocation().then(function(res) {            
-      weatherApi.getWeeklyWeather(res.data.city).then(function(response) {
+      weatherApi.getWeeklyWeather(res.data.city+","+res.data.country_code).then(function(response) {
         $scope.data = response.data;
         if ($scope.data.list.length) {
           $scope.data.list.forEach(function(i, v) {
