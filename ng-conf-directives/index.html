@@ -252,7 +252,8 @@
 	<div class="fragment">
 		<p>Compile (pre &amp; post)</p>
 		<p>Linking (pre &amp; post)</p>
-		<p>Controller</p>		
+		<p>Controller</p>
+		<p>Iscolated Scope</p>
 	</div>
 </section>
 
@@ -269,11 +270,12 @@
 	<h3 style="font-family:merriweather_sansbold;color:#FFF">Directive Best Practices</h3>		<br>			
 	<div class="fragment">
 		<p class="text-left"><span class="number">1</span> Prefer tags and attributes instead of comments and class</p>
-		<p class="text-left"><span class="number">1</span> Use dash delimitted names. e.g. &lt;user-profile&gt;</p>
-		<p class="text-left"><span class="number">2</span> Return definition object instead of function</p>
-		<p class="text-left"><span class="number">3</span> Prefix your directives. Just don't use ng- prefix :)</p>
-		<p class="text-left"><span class="number">4</span> Use templateUrl if your template is not too tiny.</p>
-		<p class="text-left"><span class="number">5</span> Use Controller when you want to expose API to other directives</p>
+		<p class="text-left"><span class="number">2</span> Use dash delimitted names. e.g. &lt;user-profile&gt;</p>
+		<p class="text-left"><span class="number">3</span> Return definition object instead of function</p>
+		<p class="text-left"><span class="number">4</span> Prefix your directives. Just don't use ng- prefix :)</p>
+		<p class="text-left"><span class="number">5</span> Use templateUrl if your template is not too tiny.</p>
+		<p class="text-left"><span class="number">6</span> Use Controller when you want to expose API to other directives</p>
+		<p class="text-left"><span class="number">7</span> Directives should clean up after themselves. You can use element.on('$destroy', ...) or scope.$on('$destroy', ...) to run a clean-up function when the directive is remove </p>
 	</div>	
 </section>
 
