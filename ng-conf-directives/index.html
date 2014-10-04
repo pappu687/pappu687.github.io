@@ -12,7 +12,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/night.css" id="theme">
@@ -47,6 +47,9 @@
 				<section data-background="#22313F">
 					<img src="images/angularjs-logo-trans.png" alt="AngularJS" border="0" class="transparent">
 					<h3 style="line-height:1.2em">How <span style="color:#F9BF3B;">*not to scratch*</span> your head with AngularJS Directives</h3>
+					<br>
+					<p>United International University, Dhaka</p>
+					<p>Sept 27, 2014</p>
 				</section>
 
 				<section data-background="images/ask-cat-question-232.jpg">
@@ -78,7 +81,7 @@
 				<section>
 					<h2 style="line-height:1.3em;">Declarative</h2><br>
 					<div class="fragment">
-						<h3 style="line-height:1.3em;color:#FFF">Know exactly where to look. </h3>						
+						<h3 style="line-height:1.3em;color:#FFF">Know exactly where to look. </h3>
 					</div>
 					<div class="fragment">
 						<pre><code>
@@ -121,7 +124,7 @@
 					<h3 style="line-height:1.4em;color:#333">AngularJS directives will turn</h3><br>
 					<div class="fragment">
 						<pre style="text-align:center;"><code>&lt;my-awesome-widget profile-data=&quot;myJSON&quot;&gt;&lt;/my-awesome-widget&gt;</code></pre>
-					</div>	
+					</div>
 					<div class="fragment">
 						<h4 style="color:#333">Into this </h4>
 						<pre><code>
@@ -140,7 +143,7 @@
 							&#x3C;/div&#x3E;
 							&#x3C;/div&#x3E;
 						</code></pre>
-					</div>					
+					</div>
 				</section>
 
 				<section data-background="#FFFFFF">
@@ -166,13 +169,13 @@
 					</code></pre>
 					<h5 style="color:#333;font-family:merriweather_sansbold">.. &amp; many more</h5>
 				</section>
-				
+
 				<section data-background="#FFFFFF">
 					<img src="images/canonical-unison-attack-microsoft-exchange.jpg" alt="Attack" border="0" class="transparent">
 					<h2 style="color:#DB0A5B">Let's get started</h2>
 
 				</section>
-				<section>		
+				<section>
 					<h3 style="font-family:merriweather_sansbold;color:#DB0A5B">Steps of writing a directive</h3>
 					<div class="fragment">
 						<div class="text-left"><span class="number">1</span> Define Angular Module
@@ -186,11 +189,11 @@
 							<pre><code>
 								angular.module(&#x22;myApp&#x22;,[&#x22;myDirectives&#x22;]);
 							</code></pre>
-						</div>						
+						</div>
 					</div>
 				</section>
 
-				<section>		
+				<section>
 					<h3 style="font-family:merriweather_sansbold;color:#DB0A5B">Steps of writing a directive (contd.)</h3><br>
 					<div class="fragment">
 						<div class="text-left">
@@ -207,16 +210,16 @@
 				</div>
 			</div>
 			<div class="fragment">
-				<div class="text-left"><span class="number">4</span> Use your awesome directive in HTML</div>	
+				<div class="text-left"><span class="number">4</span> Use your awesome directive in HTML</div>
 				<pre><code>
 					&lt;user-profile data=&quot;userProfileData&quot;&gt;&lt;/user-profile&gt;
 				</code></pre>
 			</div>
-			
+
 		</section>
 
-		<section>		
-		<h3 style="font-family:merriweather_sansbold;color:#DB0A5B">To summarize</h3>		<br>			
+		<section>
+		<h3 style="font-family:merriweather_sansbold;color:#DB0A5B">To summarize</h3>		<br>
 				<div class="text-left">
 					<pre><code>
 				angular.module(&quot;myDirectives&quot;,[])
@@ -244,8 +247,8 @@
 
 </section>
 
-<section>	
-	<h2 style="font-family:merriweather_sansbold;color:#DB0A5B">Things to keep in mind</h2>		<br>			
+<section>
+	<h2 style="font-family:merriweather_sansbold;color:#DB0A5B">Things to keep in mind</h2>		<br>
 	<div class="fragment">
 		<h3>Phases</h3>
 	</div>
@@ -257,8 +260,8 @@
 	</div>
 </section>
 
-<section>	
-	<h2 style="font-family:merriweather_sansbold;color:#DB0A5B">&amp; things to keep in mind</h2>		<br>			
+<section>
+	<h2 style="font-family:merriweather_sansbold;color:#DB0A5B">&amp; things to keep in mind</h2>		<br>
 		<h3 style="line-height:1.5em;">What do I use, Controller or Link in Directives ?</h3><br>
 	<div class="fragment">
 		<p>Before Compilation =&gt; <span style="color:#22A7F0">Controller</span></p>
@@ -266,8 +269,8 @@
 	</div>
 </section>
 
-<section data-background="#34495E">	
-	<h3 style="font-family:merriweather_sansbold;color:#FFF">Directive Best Practices</h3>		<br>			
+<section data-background="#34495E">
+	<h3 style="font-family:merriweather_sansbold;color:#FFF">Directive Best Practices</h3>		<br>
 	<div class="fragment">
 		<p class="text-left"><span class="number">1</span> Prefer tags and attributes instead of comments and class</p>
 		<p class="text-left"><span class="number">2</span> Use dash delimitted names. e.g. &lt;user-profile&gt;</p>
@@ -276,7 +279,7 @@
 		<p class="text-left"><span class="number">5</span> Use templateUrl if your template is not too tiny.</p>
 		<p class="text-left"><span class="number">6</span> Use Controller when you want to expose API to other directives</p>
 		<p class="text-left"><span class="number">7</span> Directives should clean up after themselves. You can use element.on('$destroy', ...) or scope.$on('$destroy', ...) to run a clean-up function when the directive is remove </p>
-	</div>	
+	</div>
 </section>
 
 <section>
@@ -286,7 +289,7 @@
 	<h6>CTO, iViveLabs</h6>
 	<h5>twitter.com/pappu687</h5>
 	<br />
-	<br />	
+	<br />
 </section>
 
 </div>
