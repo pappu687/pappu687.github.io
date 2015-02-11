@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'FiraSansExtraLight';
+    src: url('FiraSansExtraLight.eot');
+    src: url('FiraSansExtraLight.eot') format('embedded-opentype'),
+         url('FiraSansExtraLight.woff2') format('woff2'),
+         url('FiraSansExtraLight.woff') format('woff'),
+         url('FiraSansExtraLight.ttf') format('truetype'),
+         url('FiraSansExtraLight.svg#FiraSansExtraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'FiraSansExtraBold';
+    src: url('FiraSansExtraBold.eot');
+    src: url('FiraSansExtraBold.eot') format('embedded-opentype'),
+         url('FiraSansExtraBold.woff2') format('woff2'),
+         url('FiraSansExtraBold.woff') format('woff'),
+         url('FiraSansExtraBold.ttf') format('truetype'),
+         url('FiraSansExtraBold.svg#FiraSansExtraBold') format('svg');
+}
