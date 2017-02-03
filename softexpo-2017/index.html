@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Electron : Developing cross platform Desktop Apps with Inner Peace </title>
+	<meta name="description" content="Electron : Developing cross platform Desktop Apps with Inner Peace">
+	<meta name="author" content="Mahbubur Rahman">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/mahbub.css" id="theme">
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/tomorrow-night-bright.css">
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+	</script>
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<img src="images/electron-logo.svg" style="width:60%; border:0;box-shadow: none;" alt="Electron">
+				<h4>Building Cross Platform Desltop Applications with <span style="color: #27ae60; font-size: 1.2em;">Inner Peace</span></h4>
+				<img src="images/po.png" style="border:0;box-shadow: none;height:300px" alt="Inner Peace">
+			</section>
+			<section>
+				<h2 style="color:#F9690E"><span class="thin">M. Mahbubur Rahman</span> </h2>
+				<h3 style="color:#19B5FE" class="thin"><span style="color:rgba(25, 167, 234, 0.32)">www.</span>iViveLabs<span style="color:rgba(25, 167, 234, 0.32)">.com</span>					</h3>
+			</section>
+            <section>
+                <h2 class="thin">What options do we have for <b>cross-platform apps</b> ? </h2>
+                <h3 class="fragment">Java </h3>
+                <h3 class="fragment">Python / QT </h3>                
+                <h3 class="fragment">C++ </h3>                                 
+			</section>
+            <section>
+				<h3>Problems</h3>
+                <h4 class="fragment">Common Standard APIs</h4>
+                <h4 class="fragment">Cost</h4>
+                <h4 class="fragment">UI</h4>
+			</section>			
+			<section>
+				<h3>What is Electron</h3>
+				<h2 style="color:#2c3e50" class="thin">Open Source framework for building Desktop applications using <b>Web Technologies</b></h2>
+			</section>
+			<section>
+				<img src="images/electron-apps.jpg" style="width:100%; border:0;box-shadow: none;" alt="Electron Apps" />
+			</section>
+			<section data-transition="zoom">
+				<img src="images/elecron-apps-more.jpg" style="width:100%; border:0;box-shadow: none;" alt="Electron Apps" />
+			</section>
+			<section data-transition="none">
+				<h3>How Electron Works</h3>
+				<img class="fragment" src="images/inside-electron.png" style="width:100%; border:0;box-shadow: none;" alt="Electron Apps" />
+			</section>
+            <section data-transition="none">
+				<h3>How Electron Works</h3>
+				<img src="images/inside-electron-2.png" style="width:100%; border:0;box-shadow: none;" alt="Electron Apps" />
+			</section>
+			<section>
+				<h3>Rendering</h3>
+				<img src="images/html-css-js.png" style="width:100%; border:0;box-shadow: none;" alt="Electron Apps" />
+			</section>
+			<section>
+				<h3>What Problems can it solve ?</h3>
+				<ul style="font-size: .85em;margin-left: 0">
+					<li class="fragment">Make an App that works offline</li>
+					<li class="fragment">Access System files and API</li>
+					<li class="fragment">Opening files in External Apps</li>
+					<li class="fragment">Make Fully Customized UI for App as it needs</li>
+					<li class="fragment">Connect to hardware like Printers, scanning devices</li>
+					<li class="fragment">Write Kiosk Applications</li>
+					<li class="fragment">Not having to worry about <b>Internet Explorer</b></li>
+				</ul>
+			</section>
+			<section>
+				<h2 style="color:#333">Use Case 1 : Making an Offline version of <span style="color: #19B5FE">Quran.com</span></h2>
+			</section>
+			<section>
+				<h2 style="color:#333;text-align: left">Things we needed:</h2>
+				<ul>
+					<li class="fragment">Being able to Read</li>
+					<li class="fragment">Able to download Audio clips and later listen to them offline</li>
+					<li class="fragment">Search the Quran with Keywords</li>
+					<li class="fragment">Download Translations and search the translations</li>
+					<li class="fragment">Save notes</li>
+				</ul>
+			</section>
+			<section>
+				<h2 style="color:#333">Use Case 2 : Simplified version of <span style="color: #19B5FE">TimeDoctor</span></h2>
+			</section>
+			<section>
+				<h2 style="color:#333;text-align: left">Features needed:</h2>
+				<ul>
+					<li class="fragment">Track Currently Running Processes</li>
+					<li class="fragment">Take Screenshots and send them to cloud</li>
+					<li class="fragment">Notifications</li>
+					<li class="fragment">Application running in Background and system tray</li>
+				</ul>
+			</section>
+			<section>
+				<h2 style="color:#19B5FE">Resources</h2>
+				<h3>http://electron.atom.io/community/</h3>
+			</section>
+			<section>
+				<h2 style="color:#19B5FE">Questions ?</h2>
+				<p>&nbsp;</p>
+				<h6><span class="thin">May be in twitter ? </span>@pappu687</h6>
+			</section>
+		</div>
+	</div>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+				src: 'lib/js/classList.js',
+				condition: function () {
+					return !document.body.classList;
+				}
+			}, {
+				src: 'plugin/markdown/marked.js',
+				condition: function () {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src: 'plugin/markdown/markdown.js',
+				condition: function () {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src: 'plugin/highlight/highlight.js',
+				async: true,
+				condition: function () {
+					return !!document.querySelector('pre code');
+				},
+				callback: function () {
+					hljs.initHighlightingOnLoad();
+				}
+			}, {
+				src: 'plugin/zoom-js/zoom.js',
+				async: true
+			}, {
+				src: 'plugin/notes/notes.js',
+				async: true
+			}]
+		});
+
+		Reveal.configure({
+			slideNumber: true
+		});
+
+	</script>
+</body>
+
+</html>
